@@ -545,6 +545,47 @@ section,
 /*--------------------------------------------------------------
 # Home Section
 --------------------------------------------------------------*/
+.profilePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: white; /* Light gray background */
+}
+
+.profile {
+  text-align: center;
+  width: 100%; /* Occupies full width */
+  max-width: 1200px; /* Restricting for large screens */
+  padding: 40px 20px;
+}
+
+.profile .image-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #80b4ef; /* Nice blue border */
+  box-shadow: 0 0 15px rgba(74, 144, 226, 0.5); /* Soft glow effect */
+}
+
+.profile .name {
+  margin-top: 30px;
+  color: #000; /* Changed to black */
+  font-size: 32px; /* Increased font size for better visibility */
+  font-weight: bold; /* Makes the text stand out */
+  text-align: center; /* Centers the heading */
+  text-transform: uppercase; /* Converts text to uppercase for a strong heading */
+  letter-spacing: 1.5px; /* Adds spacing for better readability */
+  margin-bottom: 25px; /* Slightly increased spacing below */
+  border-bottom: 3px solid #0056b3; /* Adds a bottom border for emphasis */
+  display: inline-block; /* Makes border fit the text width */
+  padding-bottom: 5px; /* Adds a little space below the text */
+}
+
+
+/*  */
 .hero {
   width: 100%;
   min-height: 100vh;
